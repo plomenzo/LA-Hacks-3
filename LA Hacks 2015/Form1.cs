@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Threading;
+using System.Media;
 
 namespace LA_Hacks_2015
 {
@@ -18,6 +19,11 @@ namespace LA_Hacks_2015
             this.Hide();
             InitializeComponent();
             this.Cursor = Cursors.Hand;
+
+            using (var soundPlayer = new SoundPlayer(@"C:\Users\Ruthie\Documents\Spring 2015\LA HACKS\ironMaiden.mp3"))
+            {
+                soundPlayer.Play(); // can also use soundPlayer.PlaySync()
+            }
 
 
             Thread t = new Thread(new ThreadStart(SplashStart));
@@ -282,8 +288,49 @@ namespace LA_Hacks_2015
 
         private void submitTest1_1_Click(object sender, EventArgs e)
         {
-            test1Text.Font.SizeInPoints.Equals(40.0);
-            test1Text.Text = "CONGRATUFUCKLATIONS!";
+            bool test = true;
+
+            //check to see if the icons are in the correct location
+            if (sol3Test1_1.Width > 890 || sol3Test1_1.Width < 1046 && sol3Test1_1.Height >= 357 || sol3Test1_1.Height <= 377 && test)
+            {
+                test = true;
+            }
+            else
+                test = false;
+
+            if (sol4Test1_1.Width > 890 || sol4Test1_1.Width < 1046 && sol4Test1_1.Height >= 421 || sol4Test1_1.Height < 441 && test)
+            {
+                test = true;
+
+            }
+            else
+                test = false;
+
+            if (sol1Test1_1.Width > 890 || sol1Test1_1.Width < 1046 && sol1Test1_1.Height >= 240 || sol1Test1_1.Height <= 261 && test)
+            {
+                test = true;
+            }
+            else
+                test = false;
+
+            if (sol2Test1_1.Width > 890 || sol2Test1_1.Width < 1046 && sol2Test1_1.Height >= 276 || sol2Test1_1.Height <= 296 && test)
+            {
+                test = true;
+            }
+            else
+                test = false;
+
+            //if any of them were false then the user failed
+            if (!test)
+            {
+                test1Text.Font.SizeInPoints.Equals(60.0);
+                test1Text.Text = "You've got this, please review the material again!";
+                return;
+            }
+
+            thumbsUp.Visible = true;
+            test1Text.Font.SizeInPoints.Equals(60.0);
+            test1Text.Text = "Congratulations, I knew you could do it!";
         }
 
         // If user pushes next during intro
@@ -456,6 +503,17 @@ namespace LA_Hacks_2015
                 timer.Stop();
             }
         }
+
+        /*
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+            using (var soundPlayer = new SoundPlayer(@"C:\Users\Ruthie\Documents\Spring 2015\LA HACKS\ironMaiden.mp3"))
+            {
+                soundPlayer.Play(); // can also use soundPlayer.PlaySync()
+            }
+        }
+        */
+     
     }
 }
 

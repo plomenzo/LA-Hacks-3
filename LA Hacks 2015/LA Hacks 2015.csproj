@@ -107,6 +107,9 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\thumbs down.jpg" />
+    <None Include="Resources\thumbs up1.jpg" />
+    <None Include="Resources\thumbs up.jpg" />
     <None Include="Resources\speakingBubble.png" />
     <None Include="Resources\speechBub.png" />
     <None Include="Resources\Speech-Bubble.png" />
@@ -121,6 +124,7 @@
     <None Include="Resources\Panel1.jpg" />
     <None Include="Resources\bats.jpg" />
     <None Include="Resources\comictut19.png" />
+    <None Include="Resources\HM.jpg" />
     <Content Include="Resources\Maintitle.jpg" />
     <None Include="Resources\test1Variable.jpg" />
     <None Include="Resources\test1Int.jpg" />

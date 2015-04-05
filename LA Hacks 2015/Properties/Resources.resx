@@ -127,14 +127,20 @@
   <data name="batman" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\batman.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="speakingBubble" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\speakingBubble.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Panel6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Panel6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="test1Double" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\test1Double.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Panel8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Panel8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thumbs up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thumbs up.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="test1Variable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\test1Variable.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bats" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bats.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,8 +154,14 @@
   <data name="Panel9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Panel9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="test1Variable" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\test1Variable.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="thumbs up1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thumbs up1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HM.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="test1Double" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\test1Double.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="test1Int" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\test1Int.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,7 +181,7 @@
   <data name="speechBub" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\speechBub.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="speakingBubble" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\speakingBubble.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="thumbs down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thumbs down.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
