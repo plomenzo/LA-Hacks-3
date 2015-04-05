@@ -22,7 +22,7 @@ namespace LA_Hacks_2015
 
             using (var soundPlayer = new SoundPlayer(@"C:\Users\Ruthie\Documents\Spring 2015\LA HACKS\ironMaiden.mp3"))
             {
-                soundPlayer.Play(); // can also use soundPlayer.PlaySync()
+                //soundPlayer.Play(); // can also use soundPlayer.PlaySync()
             }
 
 
