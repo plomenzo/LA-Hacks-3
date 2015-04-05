@@ -50,6 +50,8 @@
             this.backtoMM2 = new System.Windows.Forms.Label();
             this.exitButton2 = new System.Windows.Forms.Label();
             this.t3 = new System.Windows.Forms.TabPage();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.labelgohome = new System.Windows.Forms.Label();
             this.gotot4 = new System.Windows.Forms.Label();
             this.t4 = new System.Windows.Forms.TabPage();
@@ -89,8 +91,6 @@
             this.t13 = new System.Windows.Forms.TabPage();
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.speechPanel2 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.tabControl1.SuspendLayout();
             this.t1.SuspendLayout();
             this.t2.SuspendLayout();
@@ -270,21 +270,21 @@
             // 
             this.introSpeechPanel.BackgroundImage = global::LA_Hacks_2015.Properties.Resources.speechBub;
             this.introSpeechPanel.Controls.Add(this.bubbleTextIntro);
-            this.introSpeechPanel.Location = new System.Drawing.Point(49, 90);
+            this.introSpeechPanel.Location = new System.Drawing.Point(46, 90);
             this.introSpeechPanel.Name = "introSpeechPanel";
-            this.introSpeechPanel.Size = new System.Drawing.Size(305, 233);
+            this.introSpeechPanel.Size = new System.Drawing.Size(307, 233);
             this.introSpeechPanel.TabIndex = 10;
             // 
             // bubbleTextIntro
             // 
             this.bubbleTextIntro.AutoSize = true;
             this.bubbleTextIntro.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bubbleTextIntro.Location = new System.Drawing.Point(45, 58);
+            this.bubbleTextIntro.Location = new System.Drawing.Point(45, 61);
             this.bubbleTextIntro.Name = "bubbleTextIntro";
-            this.bubbleTextIntro.Size = new System.Drawing.Size(200, 72);
+            this.bubbleTextIntro.Size = new System.Drawing.Size(197, 72);
             this.bubbleTextIntro.TabIndex = 0;
-            this.bubbleTextIntro.Text = "Well looks like I finally\r\n caught you in my nest \r\nHackman... Lets see you \r\nget" +
-    " out of this one...\".";
+            this.bubbleTextIntro.Text = "Well looks like I finally\r\n caught you in my nest \r\nhackman... Lets see you \r\nget" +
+    " out of this one";
             // 
             // nextButton2
             // 
@@ -301,7 +301,7 @@
             // 
             this.Skip2.AutoSize = true;
             this.Skip2.Font = new System.Drawing.Font("SketchFlow Print", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Skip2.Location = new System.Drawing.Point(628, 64);
+            this.Skip2.Location = new System.Drawing.Point(622, 64);
             this.Skip2.Name = "Skip2";
             this.Skip2.Size = new System.Drawing.Size(60, 23);
             this.Skip2.TabIndex = 8;
@@ -312,7 +312,7 @@
             // 
             this.backtoMM2.AutoSize = true;
             this.backtoMM2.Font = new System.Drawing.Font("SketchFlow Print", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.backtoMM2.Location = new System.Drawing.Point(76, 64);
+            this.backtoMM2.Location = new System.Drawing.Point(75, 64);
             this.backtoMM2.Name = "backtoMM2";
             this.backtoMM2.Size = new System.Drawing.Size(227, 23);
             this.backtoMM2.TabIndex = 7;
@@ -343,6 +343,25 @@
             this.t3.TabIndex = 2;
             this.t3.Text = "tabPage3";
             this.t3.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(312, 237);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(959, 196);
+            this.label2.TabIndex = 10;
+            this.label2.Text = resources.GetString("label2.Text");
+            // 
+            // panel2
+            // 
+            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Location = new System.Drawing.Point(23, 115);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(263, 372);
+            this.panel2.TabIndex = 9;
             // 
             // labelgohome
             // 
@@ -767,25 +786,6 @@
             this.speechPanel2.Name = "speechPanel2";
             this.speechPanel2.Size = new System.Drawing.Size(256, 228);
             this.speechPanel2.TabIndex = 10;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(312, 237);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(959, 196);
-            this.label2.TabIndex = 10;
-            this.label2.Text = resources.GetString("label2.Text");
-            // 
-            // panel2
-            // 
-            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel2.Location = new System.Drawing.Point(23, 115);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(263, 372);
-            this.panel2.TabIndex = 9;
             // 
             // Form1
             // 

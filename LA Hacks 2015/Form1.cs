@@ -333,7 +333,7 @@ namespace LA_Hacks_2015
         private void timer1_Tick(object sender, EventArgs e)
         {
             duration++;
-            if (duration >= 4 && duration < 9)
+            if (duration >= 4 && duration < 9) // Slide 2
             {
                 t2.BackgroundImage = Properties.Resources.Panel2;
                 introSpeechPanel.Location = new Point(864, 43);
@@ -341,33 +341,114 @@ namespace LA_Hacks_2015
                 bubbleTextIntro.Text = "Especially with a\n bomb attached\n to your chest";
                 introSpeechPanel.Size = new Size(250, 233);
             }
-            else if (duration >= 9 && duration < 14)
+            else if (duration >= 9 && duration < 14) // Slide 3
             {
                 t2.BackgroundImage = Properties.Resources.Panel3;
+                introSpeechPanel.Location = new Point(298, 38);
+                introSpeechPanel.Size = new Size(305, 233);
+                introSpeechPanel.BackgroundImage = Properties.Resources.speechBub;
+                bubbleTextIntro.Text = "Your mad Dr. Virus!\n When I get out this I'm\n coming for you!";
+                bubbleTextIntro.Size = new Size(61, 69);
+                
             }
-            else if (duration >= 14 && duration < 19)
+            else if (duration >= 14 && duration < 19) // slide 4
             {
                 t2.BackgroundImage = Properties.Resources.Panel4;
+                introSpeechPanel.Location = new Point(488, 64);
+                introSpeechPanel.Size = new Size(245, 233);
+                introSpeechPanel.BackgroundImage = Properties.Resources.speakingBubble;
+                bubbleTextIntro.Text = "Sure you will,\n Lets see you hack\n your way out of \n this one!";
+                bubbleTextIntro.Size = new Size(55, 62);
             }
-            else if (duration >= 19 && duration < 24)
+            else if (duration >= 19 && duration < 24) // slide 5
             {
                 t2.BackgroundImage = Properties.Resources.Panel5;
+                introSpeechPanel.Location = new Point(50,90);
+                introSpeechPanel.Size = new Size(291, 233);
+                introSpeechPanel.BackgroundImage = Properties.Resources.speechBub;
+                bubbleTextIntro.Text = "Must ...\n Break ...\n Out of here!!";
+                bubbleTextIntro.Size = new Size(95, 68);
+
+                if (duration >= 21 && duration < 24)
+                {
+                    introSpeechPanel.Location = new Point(644, 122);
+                    introSpeechPanel.Size = new Size(291, 233);
+                    introSpeechPanel.BackgroundImage = Properties.Resources.speechBub;
+                    bubbleTextIntro.Text = "Ugh... It's\n useless, time for\n plan B...";
+                    bubbleTextIntro.Size = new Size(139, 54);
+                    bubbleTextIntro.Location = new Point(73, 66);
+                }
             }
-            else if (duration >= 24 && duration < 29)
+            else if (duration >= 24 && duration < 29) // slide 6
             {
                 t2.BackgroundImage = Properties.Resources.Panel6;
+                introSpeechPanel.Location = new Point(300, 64);
+                introSpeechPanel.Size = new Size(291, 233);
+                introSpeechPanel.BackgroundImage = Properties.Resources.speechBub;
+                bubbleTextIntro.Text = "HHEEELLLLPPPP!!!";
+                bubbleTextIntro.Size = new Size(157, 18);
+                bubbleTextIntro.Location = new Point(44, 86);
             }
-            else if (duration >= 29 && duration < 34)
+            else if (duration >= 29 && duration < 34) // slide 7
             {
                 t2.BackgroundImage = Properties.Resources.Panel7;
+                introSpeechPanel.Location = new Point(161, 171);
+                introSpeechPanel.Size = new Size(252, 233);
+                introSpeechPanel.BackgroundImage = Properties.Resources.speakingBubble;
+                bubbleTextIntro.Text = "Sounds like\n someone needs\n help in that old \n factory";
+                bubbleTextIntro.Size = new Size(128, 72);
+                bubbleTextIntro.Location = new Point(65, 60);
+
+                if (duration >= 31 && duration < 34)
+                {
+                    Skip2.Location = new Point(622, 64);
+                    introSpeechPanel.Location = new Point(632, 543);
+                    introSpeechPanel.Size = new Size(289, 233);
+                    introSpeechPanel.BackgroundImage = Properties.Resources.speechBub;
+                    bubbleTextIntro.Text = "Sounds like\n someone needs\n help in that old \n factory";
+                    bubbleTextIntro.Size = new Size(141, 54);
+                    bubbleTextIntro.Location = new Point(67, 75);
+                }
+
             }
-            else if (duration >= 34 && duration < 39)
+            else if (duration >= 34 && duration < 39)  // slide 8
             {
                 t2.BackgroundImage = Properties.Resources.Panel8;
+                introSpeechPanel.Location = new Point(298, 64);
+                introSpeechPanel.Size = new Size(246, 233);
+                introSpeechPanel.BackgroundImage = Properties.Resources.speakingBubble;
+                bubbleTextIntro.Text = "Hackman!!\n What are you\n doing here?\n Are you okay?";
+                bubbleTextIntro.Size = new Size(439, 18);
+                bubbleTextIntro.Location = new Point(68, 60);
+
+                if (duration >= 36 && duration < 39)
+                {
+                    introSpeechPanel.Location = new Point(707, 52);
+                    introSpeechPanel.Size = new Size(305, 233);
+                    introSpeechPanel.BackgroundImage = Properties.Resources.speechBub;
+                    bubbleTextIntro.Text = "Hey kid, there's a\n bomb strapped to\n my chest. You have\n disable the bomb.\n You know how to code?";
+                    bubbleTextIntro.Size = new Size(808, 18);
+                    bubbleTextIntro.Location = new Point(51, 52);
+                }
             }
-            else if (duration >= 39 && duration < 44)
+            else if (duration >= 39 && duration < 44) // slide 9
             {
                 t2.BackgroundImage = Properties.Resources.Panel9;
+                introSpeechPanel.Location = new Point(383, 41);
+                introSpeechPanel.Size = new Size(239, 233);
+                introSpeechPanel.BackgroundImage = Properties.Resources.speakingBubble;
+                bubbleTextIntro.Text = "Well, sorta,\n kinda, not\n really...No";
+                bubbleTextIntro.Size = new Size(439, 18);
+                bubbleTextIntro.Location = new Point(80, 65);
+
+                if (duration >= 41 && duration < 44)
+                {
+                    introSpeechPanel.Location = new Point(764, 40);
+                    introSpeechPanel.Size = new Size(307, 233);
+                    introSpeechPanel.BackgroundImage = Properties.Resources.speechBub;
+                    bubbleTextIntro.Text = "Then I'm going\n to teach you!";
+                    bubbleTextIntro.Location = new Point(89, 70);
+                }
             }
             else if (duration >= 44)
             {
